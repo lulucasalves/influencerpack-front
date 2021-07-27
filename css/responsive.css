@@ -1,0 +1,124 @@
+@media screen and (max-width:1540px) {
+  :root {
+    --section-margin: 7.5rem auto;
+  }
+
+  .section {
+    max-width: 1030px;
+  }
+
+  .home {
+    display: block;
+  }
+
+  #header {
+    visibility: hidden;
+  }
+
+  #home {
+    margin-top: -72px;
+  }
+
+  #home h3 {
+    width: auto;
+    text-align: center;
+    margin-top: -60px;
+  }
+
+  #home a .button {
+    visibility: hidden;
+  }
+
+  #home a .button1500 {
+    visibility: visible;
+    text-align: center;
+    font-size: var(--subtitle-font-size);
+    font-family: var(--title-font);
+    font-weight: 500;
+    justify-content: center;
+    background: var(--base-color);
+    padding: 13px;
+    color: var(--white-color);
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 80px;
+  }
+
+  #home a .button1500:hover {
+    background: var(--second-color);
+    transition: 0.3s ease;
+  }
+
+  .video iframe {
+    margin: 0;
+    margin-left: 100px;
+    margin-top: -70px;
+  }
+
+  #garantia img {
+    margin-left: 150px;
+  }
+
+}
+
+@media screen and (max-width:950px) {
+
+  :root {
+
+    /*Fonts*/
+    --title-font-size: 2.25rem;
+    --subtitle-font-size: 1.815rem;
+    --text-font-size: 1.5rem;
+    --title-font: 'Roboto', sans-serif;
+    --text-font: 'Raleway', sans-serif;
+  
+    /*Margins*/
+    --section-margin: 7.5rem 0;
+  }
+
+  .section {
+    width: 830px;
+    word-wrap: break-word;
+  }
+
+  #home h1 {
+    line-height: 55px;
+    width: auto;
+  }
+
+  #home h3 {
+    text-align: left;
+  }
+
+  .video iframe {
+    height: 378px;
+    width: 672px;
+    margin-left: 50px;
+  }
+
+  #about {
+    margin: 3.75rem auto;
+  }
+
+}
+
+@media screen and (max-width:600px) {
+
+  :root {
+
+    /*Fonts*/
+    --title-font-size: 1.5rem;
+    --subtitle-font-size: 1.125rem;
+    --text-font-size: 1rem;
+    --title-font: 'Roboto', sans-serif;
+    --text-font: 'Raleway', sans-serif;
+  
+    /*Margins*/
+    --section-margin: 5rem 0;
+  }
+
+  #about {
+    margin: 2.25rem auto;
+  }
+
+}

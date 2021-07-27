@@ -19,7 +19,7 @@
   --text-font: 'Raleway', sans-serif;
 
   /*Margins*/
-  --section-margin: 11.25 0;
+  --section-margin: 10.625rem auto;
 }
 
 /*ALL*/
@@ -65,15 +65,10 @@ body {
   font-feature-settings: "lnum";
 }
 
-section {
-  max-width: 1510px;
-}
-
 /*ELEMENTS*/
 .toggle {
   visibility: hidden;
 }
-
 
 .title {
   font: 700 1.875rem 'Poppins', sans-serif;
@@ -82,12 +77,12 @@ section {
 }
 
 .section {
-  max-width: 1510px;
+  width: 1510px;
   margin: 0 auto;
 }
 
 .margin-section {
-  margin:  170px auto;
+  margin:  var(--section-margin);
 }
 
 .container {
@@ -235,12 +230,18 @@ nav ul li a.active::after  {
   border-radius: 10px;
 }
 
+#home a .button1500 {
+  visibility: hidden;
+}
+
 #home .button:hover {
   background: var(--second-color);
   transition: 0.3s ease;
 }
 
 .video iframe {
+  height: 415px;
+  width: 741px;
   box-shadow: 36px 36px var(--text-black-color);
   position: relative;
   right: 7px;
@@ -489,14 +490,10 @@ nav ul li a.active::after  {
   align-items: center;
 }
 
-#garantia p {
-  font-size: var(--subtitle-font-size);
-}
-
 #garantia img {
   width: 367px;
   height: 330;
-  margin-left: 470px;
+  margin-left: 550px;
 }
 
 #aviso p {
@@ -515,12 +512,4 @@ footer p {
   font-family: var(--title-font);
   font-weight: 400;
   color: var(--gray-color);
-}
-
-@media screen and (max-width:1540px) {
-
-  body {
-    background: red;
-  }
-
 }
