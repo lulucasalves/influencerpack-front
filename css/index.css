@@ -76,11 +76,6 @@ body {
   -webkit-font-smoothing: auto;
 }
 
-.section {
-  width: 1510px;
-  margin: 0 auto;
-}
-
 .margin-section {
   margin:  var(--section-margin);
 }
@@ -95,11 +90,13 @@ body {
 }
 
 .container {
-  max-width: 1510px;
+  max-width: 1540px;
 }
 
 main {
+  margin: 0 auto;
   margin-top: calc(var(--header-height) + 3rem);
+  max-width: 1540px;
 }
 
 /*Logo*/
@@ -208,7 +205,6 @@ nav ul li a.active::after  {
   font-weight: 400;
   width: 480px;
   margin-bottom: 60px;
-  margin-top: 36px;
 }
 
 #home a {
@@ -239,12 +235,12 @@ nav ul li a.active::after  {
   transition: 0.3s ease;
 }
 
-.video iframe {
+#home .video iframe {
   height: 415px;
   width: 741px;
   box-shadow: 36px 36px var(--text-black-color);
   position: relative;
-  right: 7px;
+  right: 8px;
   margin-left: 255px;
 }
 
@@ -263,16 +259,8 @@ nav ul li a.active::after  {
 
 #about .list .item svg {
   margin-right: 15px;
-}
-
-#about .first .list .item:hover {
-  opacity: 0.9;
-  transition: 0.3s ease;
-}
-
-#about .second .list .item:hover {
-  opacity: 0.9;
-  transition: 0.3s ease;
+  height: 30px;
+  width: 30px;
 }
 
 #about .second {
@@ -322,11 +310,6 @@ nav ul li a.active::after  {
   cursor: default;
 }
 
-#about2 .containers .text h3:hover {
-  opacity: 0.9;
-  transition: 0.3s ease;
-}
-
 #about2 .containers .text .carta h3 {
   margin-top: 95px;
 }
@@ -367,7 +350,7 @@ nav ul li a.active::after  {
 #bonus .list .itens {
   display: flex;
   margin-bottom: 25px;
-  width: 950px;
+  max-width: 950px;
 }
 
 #bonus .list .itens svg {
@@ -377,7 +360,7 @@ nav ul li a.active::after  {
 
 #bonus .description {
   text-align: center;
-  width: 900px;
+  max-width: 900px;
   margin: 0 auto;
   margin-top: 50px;
 }
@@ -412,12 +395,6 @@ nav ul li a.active::after  {
 
 #resume .list .itens svg {
   margin-right: 10px;
-}
-
-#resume .list .itens svg:hover {
-  height: 22px;
-  width: 22px;
-  transition: 0.3s ease;
 }
 
 #resume .list .itens .names {

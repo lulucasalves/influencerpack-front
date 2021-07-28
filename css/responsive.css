@@ -1,14 +1,11 @@
 @media screen and (max-width:1540px) {
   :root {
-    --section-margin: 7.5rem auto;
+    --section-margin: 7.5rem 1.25rem;
   }
 
-  .section {
-    max-width: 1030px;
-  }
-
-  .home {
-    display: block;
+  main {
+    margin: 0 auto;
+    max-width: 1400px;
   }
 
   #header {
@@ -16,17 +13,39 @@
   }
 
   #home {
-    margin-top: -72px;
+    margin: 0 1.25rem;
+    margin-top: 55px;
+  }
+
+  .home {
+    display: block;
+  }
+
+  #home h1 {
+    width: 100%;
+    margin-bottom: 30px;
   }
 
   #home h3 {
-    width: auto;
+    width: 100%;
+    margin: auto;
+  }
+
+  #home .video  {
     text-align: center;
-    margin-top: -60px;
+  }
+
+  #home .video iframe {
+  position: unset;
+  margin: 0 auto;
+  height: 450.2px;
+  width: 800px;
+  margin-top: 50px;
   }
 
   #home a .button {
     visibility: hidden;
+    display: none;
   }
 
   #home a .button1500 {
@@ -49,10 +68,16 @@
     transition: 0.3s ease;
   }
 
-  .video iframe {
-    margin: 0;
-    margin-left: 100px;
-    margin-top: -70px;
+  #about2 .containers .container-2 {
+    margin-left: 100px
+  }
+
+  #bonus {
+    margin: 0 auto;
+  }
+
+  #resume {
+    margin: 7.5rem auto 0 auto;
   }
 
   #garantia img {
@@ -76,28 +101,98 @@
     --section-margin: 7.5rem 0;
   }
 
-  .section {
-    width: 830px;
-    word-wrap: break-word;
+  main {
+    max-width: 950px;
+    margin: 0 20px;
   }
 
   #home h1 {
-    line-height: 55px;
-    width: auto;
+    line-height: 1.5;
   }
 
-  #home h3 {
-    text-align: left;
+  #home .video iframe {
+    width: 672.25px;
+    height: 378.31px;
+    margin-right: 36px;
+    margin-top: 40px;
   }
 
-  .video iframe {
-    height: 378px;
-    width: 672px;
-    margin-left: 50px;
+  #about .first h3 {
+    font-size: var(--subtitle-font-size);
   }
 
-  #about {
-    margin: 3.75rem auto;
+  #about .list .item svg {
+    height: 25px;
+    width: 25px;
+  }
+
+  #about2 .btn h2 {
+    width: 420px;
+  }
+
+  #about2 .containers {
+    display: block;
+  }
+
+  #about2 .containers .text .aulas,.carta,.contrato,.midia {
+    margin-top: 50px;
+  }
+
+  #about2 .containers .text .carta h3 {
+    margin-top: auto;
+  }
+  
+  #about2 .containers .text .contrato h3 {
+    margin-top: auto;
+  }
+
+  #about2 .containers .container-2 {
+    margin-left: 0;
+  }
+
+  #bonus .list .itens svg {
+    margin-right: 15px;
+    margin-top: 7px;
+  }
+
+  #resume .real-price .button {
+    width: 350px;
+  }
+
+  #resume .real-price .price {
+    position: unset;
+    font-size: 30px;
+  }
+
+  #resume .real-price h2 {
+    position: unset;
+    font-size: 48px;
+  }
+
+  #resume h4 {
+    font-size: 40px;
+  }
+
+  #resume .list .itens .names .price {
+    margin-left: 15px;
+  }
+
+  #garantia {
+    display: block;
+    text-align: center;
+  }
+
+  #garantia img {
+    margin: 70px 0 0 0;
+  }
+
+  #garantia img {
+    width: 244px;
+    height: 219px;
+  }
+
+  footer p {
+    font-size: 18px;
   }
 
 }
@@ -117,8 +212,125 @@
     --section-margin: 5rem 0;
   }
 
-  #about {
-    margin: 2.25rem auto;
+  main {
+    max-width: 600px;
+    margin: 0 10px;
+  }
+
+  #home {
+    margin-top: 25px;
+  }
+
+  #home h1 {
+    margin-bottom: 15px;
+  }
+
+  #home .video iframe {
+    box-shadow: 25px 25px var(--text-black-color);
+    width: 318px;
+    height: 179.11px;
+    margin-top: 25px;
+  }
+
+  #home .video .button1500 {
+    width: 180px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  #about .list .item svg {
+    height: 15px;
+    width: 15px;
+  }
+
+  #about2 .btn h2 {
+    width: 280px;
+  }
+
+  #about2 .containers .text h3 {
+    border-radius: 8px;
+  }
+
+  #about2 .containers .text .aulas,.carta,.midia,.contrato {
+    margin-top: 25px;
+  }
+
+  #about2 .containers {
+    margin-top: -25px;
+  }
+
+  #bonus .list {
+    padding: 15px;
+  }
+
+  #bonus .title {
+    padding: 10px;
+  }
+
+  #bonus .list .itens {
+    margin-bottom: 15px;
+  }
+
+  #bonus .list .itens svg {
+    margin-right: 10px;
+    margin-top: 2px;
+  }
+
+  #bonus .title p {
+    font-size: var(--text-font-size);
+  }
+
+  #bonus .description {
+    margin-top: 30px;
+  }
+
+  #resume {
+    margin: 5rem auto 0 auto;
+  }
+
+  #resume .list {
+    padding: 15px;
+  }
+
+  #resume .itens svg {
+    width: 15px;
+    height: 15px;
+  }
+
+  #resume .real-price {
+    margin-top: 30px;
+  }
+
+  #resume .real-price .price {
+    font-size: 18px;
+  }
+
+  #resume .real-price h2 {
+    font-size: 30px;
+  }
+
+  #resume .real-price .button {
+    margin-top: 30px;
+    width: 240px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  #resume h4 {
+    font-size: 22px;
+    margin-top: 30px;
+  }
+
+  #garantia img {
+    width: 140px;
+    height: 126px;
+    margin-top: 30px;
+  }
+
+  footer p {
+    font-size: 14px;
   }
 
 }
