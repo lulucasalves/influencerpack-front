@@ -223,7 +223,12 @@
 
   #home h1 {
     margin-bottom: 15px;
-    width: 100%;
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  #home h1 span {
+    padding: 1px 4px;
   }
 
   #home .video iframe {

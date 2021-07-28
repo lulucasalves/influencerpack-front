@@ -71,7 +71,7 @@ body {
 }
 
 .title {
-  font: 500 1.875rem 'Roboto', sans-serif;
+  font: 500 30px 'Roboto', sans-serif;
   color: var(--white-color);
   -webkit-font-smoothing: auto;
 }
@@ -86,7 +86,7 @@ body {
 
 .grid {
   display: grid;
-  gap: 2rem;
+  gap: 32px;
 }
 
 .container {
@@ -95,7 +95,7 @@ body {
 
 main {
   margin: 0 auto;
-  margin-top: calc(var(--header-height) + 3rem);
+  margin-top: calc(var(--header-height) + 48px);
   max-width: 1540px;
 }
 
@@ -116,12 +116,12 @@ nav {
 
 nav .menu ul {
   display: flex;
-  gap: 2rem;
+  gap: 32px;
   margin-right: 35px;
 }
 
 nav .menu ul li a.title {
-  font-size: 1.1125rem;
+  font-size: 18px;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
 }
@@ -133,7 +133,7 @@ nav .menu ul li a.title.active {
 
 nav ul li {
   text-align: center;
-  margin-left: 0.8rem;
+  margin-left: 13px;
 }
 
 nav ul li a {
@@ -155,7 +155,7 @@ nav ul li a::after {
 
   position: absolute;
   left: 0;
-  bottom: -1rem;
+  bottom: -16px;
 
   transition: width 0.3s;
 }
@@ -189,7 +189,7 @@ nav ul li a.active::after  {
   font-family: var(--title-font);
   font-weight: 700;
   text-align: center;
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
   margin-bottom: 80px;
   line-height: 70px;
@@ -203,7 +203,7 @@ nav ul li a.active::after  {
 #home h3 {
   font-size: var(--subtitle-font-size);
   font-weight: 400;
-  width: 480px;
+  max-width: 480px;
   margin-bottom: 60px;
 }
 
