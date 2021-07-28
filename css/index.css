@@ -71,7 +71,7 @@ body {
 }
 
 .title {
-  font: 700 1.875rem 'Poppins', sans-serif;
+  font: 500 1.875rem 'Roboto', sans-serif;
   color: var(--white-color);
   -webkit-font-smoothing: auto;
 }
@@ -117,17 +117,17 @@ nav {
 nav .menu ul {
   display: flex;
   gap: 2rem;
+  margin-right: 35px;
 }
 
 nav .menu ul li a.title {
   font-size: 1.1125rem;
-  font-weight: 500;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
 }
 
 nav .menu ul li a.title.active {
-  font-weight: 700;
-  color: var(--base-color);
+  font-weight: 500;
   -webkit-font-smoothing: auto;
 }
 
@@ -273,13 +273,13 @@ nav ul li a.active::after  {
   padding: 5px;
 }
 
-#about2 .btn {
+.about2 .btn {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
 }
 
-#about2 .btn h2 {
+.about2 .btn h2 {
   margin: 0 auto;
   width: 520px;
   text-align: center;
@@ -291,15 +291,15 @@ nav ul li a.active::after  {
   cursor: default;
 }
 
-#about2 .containers {
+.about2 .containers {
   display: flex;
 }
 
-#about2 .containers .container-2 {
+.about2 .containers .container-2 {
   margin-left: 200px
 }
 
-#about2 .containers .text h3 {
+.about2 .containers .text h3 {
   font-size: var(--subtitle-font-size);
   font-weight: 600;
   background: var(--base-color);
@@ -310,11 +310,11 @@ nav ul li a.active::after  {
   cursor: default;
 }
 
-#about2 .containers .text .carta h3 {
+.about2 .containers .text .carta h3 {
   margin-top: 95px;
 }
 
-#about2 .containers .text .contrato h3 {
+.about2 .containers .text .contrato h3 {
   margin-top: 60px;
 }
 
@@ -365,11 +365,11 @@ nav ul li a.active::after  {
   margin-top: 50px;
 }
 
-#resume {
+.resume {
   max-width: 1050px;
 }
 
-#resume h3 {
+.resume h3 {
   text-align: center;
   font-size: var(--subtitle-font-size);
   font-family: var(--title-font);
@@ -379,7 +379,7 @@ nav ul li a.active::after  {
   padding: 15px 0;
 }
 
-#resume .list {
+.resume .list {
   background: rgba(255, 255, 255, 0.05);
   border: 4px dashed var(--base-color);
   padding: 25px;
@@ -387,63 +387,63 @@ nav ul li a.active::after  {
   border-radius: 0 0 20px 20px;
 }
 
-#resume .list .itens {
+.resume .list .itens {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
 }
 
-#resume .list .itens svg {
+.resume .list .itens svg {
   margin-right: 10px;
 }
 
-#resume .list .itens .names {
+.resume .list .itens .names {
   display: flex;
   align-items: center;
 }
 
-#resume .list .itens .names .price {
+.resume .list .itens .names .price {
   margin-left: 20px;
   color: #FF5959;
   text-decoration: line-through;
 }
 
-#resume .list .last {
+.resume .list .last {
   margin-bottom: 0;
 }
 
-#resume h4 {
+.resume h4 {
   color: #FF5959;
   text-align: center;
   font-size: 55px;
   margin-top: 50px;
 }
 
-#resume h4 span {
+.resume h4 span {
   text-decoration: line-through;
 }
 
-#resume .real-price {
+.resume .real-price {
   text-align: center;
   margin-top: 50px;
   font-family: var(--title-font-size);
   overflow: hidden;
 }
 
-#resume .real-price h2 {
+.resume .real-price h2 {
   font-size: 68px;
   font-weight: 700;
   position: relative;
   right: 130px;
 }
 
-#resume .real-price .price {
+.resume .real-price .price {
   font-size: var(--title-font-size);
   position: relative;
   left: 130px;
 }
 
-#resume .real-price .button {
+.resume .real-price .button {
   width: 480px;
   margin: 0 auto;
   margin-top: 50px;
@@ -457,7 +457,7 @@ nav ul li a.active::after  {
   border-radius: 10px;
 }
 
-#resume .real-price .button:hover {
+.resume .real-price .button:hover {
   background: var(--second-yellow-color);
   transition: 0.3s ease;
 }
@@ -473,7 +473,7 @@ nav ul li a.active::after  {
   margin-left: 550px;
 }
 
-#aviso p {
+.aviso p {
   color: var(--gray-color);
 }
 

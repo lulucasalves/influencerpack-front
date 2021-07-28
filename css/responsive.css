@@ -68,7 +68,7 @@
     transition: 0.3s ease;
   }
 
-  #about2 .containers .container-2 {
+  .about2 .containers .container-2 {
     margin-left: 100px
   }
 
@@ -76,7 +76,7 @@
     margin: 0 auto;
   }
 
-  #resume {
+  .resume {
     margin: 7.5rem auto 0 auto;
   }
 
@@ -126,27 +126,27 @@
     width: 25px;
   }
 
-  #about2 .btn h2 {
+  .about2 .btn h2 {
     width: 420px;
   }
 
-  #about2 .containers {
+  .about2 .containers {
     display: block;
   }
 
-  #about2 .containers .text .aulas,.carta,.contrato,.midia {
+  .about2 .containers .text .aulas,.carta,.contrato,.midia {
     margin-top: 50px;
   }
 
-  #about2 .containers .text .carta h3 {
+  .about2 .containers .text .carta h3 {
     margin-top: auto;
   }
   
-  #about2 .containers .text .contrato h3 {
+  .about2 .containers .text .contrato h3 {
     margin-top: auto;
   }
 
-  #about2 .containers .container-2 {
+  .about2 .containers .container-2 {
     margin-left: 0;
   }
 
@@ -155,25 +155,25 @@
     margin-top: 7px;
   }
 
-  #resume .real-price .button {
+  .resume .real-price .button {
     width: 350px;
   }
 
-  #resume .real-price .price {
+  .resume .real-price .price {
     position: unset;
     font-size: 30px;
   }
 
-  #resume .real-price h2 {
+  .resume .real-price h2 {
     position: unset;
     font-size: 48px;
   }
 
-  #resume h4 {
+  .resume h4 {
     font-size: 40px;
   }
 
-  #resume .list .itens .names .price {
+  .resume .list .itens .names .price {
     margin-left: 15px;
   }
 
@@ -247,19 +247,19 @@
     width: 15px;
   }
 
-  #about2 .btn h2 {
+  .about2 .btn h2 {
     width: 280px;
   }
 
-  #about2 .containers .text h3 {
+  .about2 .containers .text h3 {
     border-radius: 8px;
   }
 
-  #about2 .containers .text .aulas,.carta,.midia,.contrato {
+  .about2 .containers .text .aulas,.carta,.midia,.contrato {
     margin-top: 25px;
   }
 
-  #about2 .containers {
+  .about2 .containers {
     margin-top: -25px;
   }
 
@@ -292,39 +292,44 @@
     margin-top: 30px;
   }
 
-  #resume {
+  .resume {
     margin: 5rem auto 0 auto;
   }
 
-  #resume .list {
+  .resume .list {
     padding: 15px;
   }
 
-  #resume .itens svg {
+  .resume .itens svg {
     width: 15px;
     height: 15px;
   }
 
-  #resume .real-price {
+  .resume .itens .bug {
+    width: 20px;
+    height: 20px;
+  }
+
+  .resume .real-price {
     margin-top: 30px;
   }
 
-  #resume .real-price .price {
+  .resume .real-price .price {
     font-size: 18px;
   }
 
-  #resume .real-price h2 {
+  .resume .real-price h2 {
     font-size: 30px;
   }
 
-  #resume .real-price .button {
+  .resume .real-price .button {
     margin-top: 30px;
     width: 240px;
     padding: 10px;
     border-radius: 10px;
   }
 
-  #resume h4 {
+  .resume h4 {
     font-size: 22px;
     margin-top: 30px;
   }
